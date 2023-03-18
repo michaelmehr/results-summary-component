@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon-32x32.png" />
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results Summary Component</title>
+  </head>
+  <body>
+      <div class="card flex">
+        <div class="your-results flex-col">
+          <p class="yr-title fw-700">Your Result</p>
+          <div class="circle-score flex-col">
+            <p class="big-number fw-800">76</p>
+            <p>of 100</p>
+          </div>
+          <p class="great fw-700">Great</p>
+          <p class="great-desc">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+        <div class="summary flex-col">
+          <p class="summary-title fw-700">Summary</p>
+          <div class="sub-scores">
+            <div class="reaction flex">
+              <p><img src="./public/icon-reaction.svg" alt="reaction icon">Reaction</p>
+              <p class="transparent-gray-text"><span class="bold-gray-blue">80</span> / 100</p>
+            </div>
+            <div class="memory flex">
+              <p><img src="./public/icon-memory.svg" alt="memory icon">Memory</p>
+              <p class="transparent-gray-text"><span class="bold-gray-blue">92</span> / 100</p>
+            </div>
+            <div class="verbal flex">
+              <p><img src="./public/icon-verbal.svg" alt="verbal icon">Verbal</p>
+              <p class="transparent-gray-text"><span class="bold-gray-blue">61</span> / 100</p>
+            </div>
+            <div class="visual flex">
+              <p><img src="./public/icon-visual.svg" alt="visual icon">Visual</p>
+              <p class="transparent-gray-text"><span class="bold-gray-blue">72</span> / 100</p>
+            </div>
+          </div>
+          <button>Continue</button>
+        </div>
+      </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
