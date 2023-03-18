@@ -1,12 +1,4 @@
-@font-face {
-  font-family: Hanken Grotesk;
-  src: url("HankenGrotesk-VariableFont_wght.ttf"), url("HankenGrotesk-Bold.ttf"), url("HankenGrotesk-ExtraBold.ttf"), url("HankenGrotesk-Medium.ttf");
-  src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
-}
-
-* {
-  font-family: Hanken Grotesk;
-}
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
 /* 
   -----------------
@@ -42,7 +34,7 @@
   ------------- */
 
   --font-size: 18px;
-  /* --font-family: Hanken Grotesk; */
+  --font-family: Hanken Grotesk;
 
   /* Font Weights */
 
@@ -59,7 +51,7 @@
 */
 
 body {
-  /* font-family: var(--font-family); */
+  font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--fw-500);
 }
