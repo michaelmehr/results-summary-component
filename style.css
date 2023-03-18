@@ -3,6 +3,10 @@
   src: url("HankenGrotesk-VariableFont_wght.ttf");
 }
 
+* {
+  font-family: Hanken Grotesk;
+}
+
 /* 
   -----------------
   Custom Properties
@@ -69,7 +73,7 @@ img {
   margin-right: .75rem;
 }
 
-.card  {
+.card {
   flex-direction: column;
 }
 
@@ -96,7 +100,7 @@ img {
   border-radius: 50%;
   aspect-ratio: 1;
   padding: 2.5em;
-  color:hsla(var(--white) / .5);
+  color: hsla(var(--white) / .5);
 
   justify-content: center;
   align-items: center;
@@ -133,7 +137,7 @@ img {
   margin-bottom: .5rem;
 }
 
-.sub-scores > div {
+.sub-scores>div {
   border-radius: .5rem;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -143,23 +147,23 @@ img {
 }
 
 .reaction {
-  color: hsla( var(--light-red) );
-  background-color: hsla( var(--light-red) / .1 );
+  color: hsla(var(--light-red));
+  background-color: hsla(var(--light-red) / .1);
 }
 
 .memory {
-  color: hsla( var(--orangey-yellow) );
-  background-color: hsla( var(--orangey-yellow) / .1 );
+  color: hsla(var(--orangey-yellow));
+  background-color: hsla(var(--orangey-yellow) / .1);
 }
 
 .verbal {
-  color: hsla( var(--green-teal) );
-  background-color: hsla( var(--green-teal) / .1 );
+  color: hsla(var(--green-teal));
+  background-color: hsla(var(--green-teal) / .1);
 }
 
 .visual {
-  color: hsla( var(--cobalt-blue) );
-  background-color: hsla( var(--cobalt-blue) / .1 );
+  color: hsla(var(--cobalt-blue));
+  background-color: hsla(var(--cobalt-blue) / .1);
 }
 
 button {
@@ -168,20 +172,21 @@ button {
   padding: 1rem;
 
   color: hsl(var(--white));
-  background-color: hsla( var(--dark-gray-blue) );
+  background-color: hsla(var(--dark-gray-blue));
 }
 
-button:hover, button:focus {
-  background-image: linear-gradient( hsl( var(--bg-gradient-slate) ) , hsl( var(--bg-gradient-royal) ));
+button:hover,
+button:focus {
+  background-image: linear-gradient(hsl(var(--bg-gradient-slate)), hsl(var(--bg-gradient-royal)));
 }
 
 .transparent-gray-text {
-  color:hsla( var(--dark-gray-blue) / .5 );
+  color: hsla(var(--dark-gray-blue) / .5);
 }
 
 .bold-gray-blue {
   font-weight: var(--fw-700);
-  color: hsl( var(--dark-gray-blue) );
+  color: hsl(var(--dark-gray-blue));
 }
 
 
@@ -192,7 +197,7 @@ button:hover, button:focus {
 */
 
 .flex {
-  display: flex; 
+  display: flex;
 }
 
 .flex-col {
@@ -206,9 +211,17 @@ button:hover, button:focus {
 
 /* Font Weight Classes */
 
-.fw-500 { font-weight: var(--fw-500); }
-.fw-700 { font-weight: var(--fw-700); }
-.fw-800 { font-weight: var(--fw-800); }
+.fw-500 {
+  font-weight: var(--fw-500);
+}
+
+.fw-700 {
+  font-weight: var(--fw-700);
+}
+
+.fw-800 {
+  font-weight: var(--fw-800);
+}
 
 /* Colors */
 
@@ -233,7 +246,7 @@ button:hover, button:focus {
     flex-direction: row;
   }
 
-  .card > div {
+  .card>div {
     width: 15em;
   }
 
