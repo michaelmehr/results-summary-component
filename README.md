@@ -47,6 +47,8 @@ Users should be able to:
 
 In the future I would like to improve how I work with inline SVGs. Right now I struggle to not make them look awkward but it's all a process. I would also like to work on writing more organized CSS classes.
 
+Another struggle I had was with the local fonts. It was simple to use them in my development environment, but when deployed on Netlify I was unable to load the local fonts, and after lots of trial and error I resorted to using Google Fonts. I definitely need to spend some more time experimenting with Netlify and loading font assets.
+
 ## Author
 
 - Frontend Mentor - [@michaelmehr](https://www.frontendmentor.io/profile/michaelmehr)
